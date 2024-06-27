@@ -95,7 +95,8 @@
              "user_credentials": raptorKey,
              "document_content": documentBody,
              "name" : documentTitle,
-             "pdf_title" : documentTitle
+             "pdf_title" : documentTitle,
+             "profile" : "PDF/X-1a:2001"
           }),
           onload: function(response) {
               if (response.status == 200 ) {
